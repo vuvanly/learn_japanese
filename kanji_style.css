@@ -1,0 +1,108 @@
+.content{
+	text-align: center;
+}		
+.body-content1, .body-content2{			
+	margin-left: 25%;
+	width: 50%;			
+	border: 2px black solid;	    	
+	text-align: center;
+}
+
+.body-content2{			
+	border-top: 2px black solid;
+	border-left: 2px black solid;
+	border-right: 2px black solid;
+	border-bottom: 0 black solid;	    	
+}		
+.button{
+    text-align: center;	    	
+}
+.button button{
+    min-width: 72px;
+    height: 36px;
+    margin: 10px;
+    background: blue;
+    border: none;
+    color: white;
+    font-size: 16px;	    
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.button .reset, .button .bookmark{
+	background: #9C27B0;
+}
+.button .reset{
+	float: left;
+	margin-left: 25%;
+}
+.button .bookmark{
+	float: right;
+	margin-right: 25%;
+}		
+.show-button{			
+	padding-bottom: 20px;
+}
+.front .kanji-txt{
+	font-size: 120px;
+}
+.front .hiragana-txt{
+	font-size: 60px;
+}
+.no-display{
+	display: none;
+}
+.back .back_han_viet{
+	font-size: 40px;
+}
+.back .back_nghia{
+	font-size: 30px;
+	color: red;
+}
+.clear-both{
+	clear: both;
+}
+.body-content2{
+	padding-bottom: 50px;
+}
+.kanji_part{
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	width: 22%;
+}
+.kanji_part .part_kanji{
+	font-size: 40px;
+}
+.kanji_part .part_han_viet{
+	font-size: 25px;
+	font-weight: bold;
+}
+.word_relateds{
+	clear: both;
+	padding-left: 60px;
+	padding-right: 10px;
+}
+.word_relateds div{
+	float: left;
+	width: 25%;
+}
+.back_on_romaji{
+	color: red;
+}
+.title_n2{
+	margin-top: -8px;
+}	
+.menu {
+	position: fixed;
+	margin-top: -64px;
+}
+.menu .menu_left, .menu .menu_right {
+	float: left;
+}
+.menu li{
+	list-style-type: katakana-iroha;
+}
+ol > li span{
+	color: blue;
+	font-weight: bold;
+}
