@@ -268,7 +268,11 @@ echo "</div>";
 	function onChange(){
 		isModeHoc = document.getElementById("mode_0").checked;		
 		toggleHocTest();
-		loadKanji();	
+		loadKanji();
+		window.focus();
+		if (document.activeElement) {
+		    document.activeElement.blur();
+		}	
 	}
 	var resetButton;
 	var bookmarkButton;

@@ -263,6 +263,10 @@ echo "</div>";
 		isModeHoc = document.getElementById("mode_0").checked;
 		toggleHocTest();
 		loadKanji();	
+		window.focus();
+		if (document.activeElement) {
+		    document.activeElement.blur();
+		}
 	}
 
 	var resetButton;
